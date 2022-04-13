@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
- * main - Entry for code
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-print_alphabet();
-return (0);
+    jack_bauer();
+    return (0);
 }
