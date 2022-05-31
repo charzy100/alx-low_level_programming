@@ -11,5 +11,7 @@ int get_endianness(void);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int binary_to_uint(const char *b);
+int _pow_recursion(int x, int y);
+int _strlen_recursion(const char *s);
 
 #endif
